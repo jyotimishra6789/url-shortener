@@ -1,0 +1,130 @@
+.answer{
+    display:none;
+    animation:ease-in;
+    animation-duration: 5s;
+}
+#ques{
+    cursor:pointer;
+}
+
+#url-box{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:40px;
+    
+}
+#link{
+    font-size: large;
+    width:400px;
+    height:30px;
+    border-radius: 7px;
+    border-color:grey;
+
+    
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+
+}
+#box{
+    scale:calc(1.6);
+    margin-top: 7px;
+    border-radius: 3px;
+    background-color: rgb(77, 161, 245);
+    color:white;
+    
+   
+}
+p{
+    text-align: center;
+    font-size: larger;
+    margin:50px 100px;
+    max-width: 1300px;
+}
+.aboutus{
+    margin-top:100px;
+    margin-bottom:-20px
+}
+#ques:not(.answer){
+    display:flex;
+    flex-direction:column;
+    font-size:x-large;
+    text-align: center;
+    flex-wrap:wrap;
+    background-color: rgb(72, 144, 228);
+    height: 300px;
+
+}
+.answer{
+font-size: large;
+margin-top: -20px;
+color: azure;
+}
+.q1,.q2,.q3,.q4{
+    margin-bottom: 25px;
+}
+hr{
+    width:300px;
+}
+#features{
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+justify-content: space-around;
+background-color: rgb(147, 210, 240);
+flex-wrap: wrap;
+
+}
+.fast,.analytics,.UI,.rob,.custom{
+    border-radius: 3px;
+    border:solid;
+    width:200px;
+    height:250px;
+    border-radius:5px;
+    padding:10px;
+    border-color:grey;
+    cursor: pointer;
+    background-color:rgb(184, 221, 255);
+    
+}
+.fast:hover{
+    box-shadow: rgba(240, 233, 208, 0.8) 0 0 90px 33px;
+      scale:calc(1.1);
+    }
+
+.analytics:hover{
+  box-shadow: rgba(240, 233, 208, 0.8) 0 0 90px 33px;
+    scale:calc(1.1);
+    
+}
+.UI:hover{
+    box-shadow: rgba(240, 233, 208, 0.8) 0 0 90px 33px;
+      scale:calc(1.1);
+      
+  }
+  .rob:hover{
+    box-shadow: rgba(240, 233, 208, 0.8) 0 0 90px 33px;
+      scale:calc(1.1);
+      
+  }
+  .custom:hover{
+    box-shadow: rgba(240, 233, 208, 0.8) 0 0 90px 33px;
+      scale:calc(1.1);
+    
+  }
+  nav{
+    max-height:100px;
+    
+  }
+  #logo{
+    scale:calc(.25);
+    max-height: 200px;
+margin-left: -320px;
+margin-top: -50px;
+  }
